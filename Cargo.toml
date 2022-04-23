@@ -1,0 +1,18 @@
+[package]
+name = "eles"
+description = "ELES; Extensible Logical Expression Solver"
+authors = ["USAGI.NETWORK / Usagi Ito <the@usagi.network>"]
+categories = ["parsing"]
+keywords = ["logical", "expression", "extensible", "parser", "text"]
+documentation = "https://docs.rs/eles/"
+repository = "https://github.com/usagi/eles"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.57"
+
+[dev-dependencies]
+regex = "1.5.5"
+once_cell = "1.10.0"
